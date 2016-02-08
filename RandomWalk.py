@@ -1,7 +1,7 @@
 import turtle
 from random import randint
 
-turtle.speed(1) # Set turtle speed to slowest
+turtle.speed(10) # Set turtle speed to slowest
 
 # Draw 16 by 16 lattices
 turtle.color("gray") # Color for lattice
