@@ -1,16 +1,11 @@
 __author__ = 'acpb859'
-def footToMeter(foot, meters):
-    meters = 0.305 * foot
-
-print('Feet Meters  |   Meters  Feet')
-
-def main():
-    for i in range (1,10):
-        print(footToMeter(i,meters))
 
 
+def footToMeter(foot):
+    result1 = 0.305 * foot
 
+def meterToFoot(meter):
+    result2 = meter / 0.305
+    print(result2)
 
-
-
-###    FINISH!!!
+meterToFoot(4)
